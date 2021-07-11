@@ -1,0 +1,20 @@
+{
+  "name": "makimaki-server",
+  "version": "1.0.0",
+  "description": "Makimaki Express server application to orchestate Domotic operations",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon ./app.js localhost 3000"
+  },
+  "keywords": [],
+  "author": "Maximiliano Chereza",
+  "license": "MIT",
+  "dependencies": {
+    "@abandonware/noble": "^1.9.2-14",
+    "@mapbox/node-pre-gyp": "^1.0.5",
+    "express": "^4.17.1",
+    "node-beacon-scanner": "^0.2.2",
+    "nodemon": "^2.0.7"
+  }
+}
